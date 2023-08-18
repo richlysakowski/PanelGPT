@@ -1,4 +1,4 @@
-# PanelGPT: Prompt Language Models with a Penal Discussion 
+# PanelGPT: Prompt Language Models with a Panel Discussion 
 > **Three cobblers with their wits combined equal Zhuge Liang the mastermind. --- an old saying in China.**
 # 💡: 💁🏼🎤     (👾💬) (🤖💭) (🤯🗯)
 
@@ -8,7 +8,7 @@ We introduce new zero-shot prompting magic words that improve language models' r
 
 ## Motivation
 
-In conferences and workshops, there are always **penal discussions** among experts, and people exchange their opinions on a given topic, improving the understanding of new concepts, changing perspectives of thinking, and reaching a more comprehensive understanding of prevailing debates or discussions.
+In conferences and workshops, there are always **panel discussions** among experts, and people exchange their opinions on a given topic, improving the understanding of new concepts, changing perspectives of thinking, and reaching a more comprehensive understanding of prevailing debates or discussions.
 
 <figure>
   <figcaption> Figure 1: A panel discussion between Jack Ma and Elon Musk, WAIC, 2019: </figcaption>
@@ -37,7 +37,7 @@ Our panel discussion prompt achieves the **Best Performance**, and ablation stud
 | PanelGPT w/o AE and EA |  0.878 | 3 experts are discussing the question with a discussion, trying to solve it step by step, and make sure the result is correct: | (Ours, Ablation Study)
 | PanelGPT w/o AE| 0.84 | 3 experts are discussing the question with a discussion, trying to solve it step by step, and make sure the result is correct and avoid penalty: | (Ours, Ablation Study)
 | PanelGPT w/o EA |  <ins>0.894</ins>  | 3 experts are discussing the question with a panel discussion, trying to solve it step by step, and make sure the result is correct: | (Ours, Ablation Study)
-| P<ins>e</ins>n<ins>a</ins>lGPT  (Mis-spelled) |  _0.883_  | 3 experts are discussing the question with a penal discussion, trying to solve it step by step, and make sure the result is correct: | (Ours, Ablation Study)
+| P<ins>e</ins>n<ins>a</ins>lGPT  (Mis-spelled) |  _0.883_  | 3 experts are discussing the question with a panel discussion, trying to solve it step by step, and make sure the result is correct: | (Ours, Ablation Study)
 ## Related Works
 
 ### Zero-Shot and Few-Shot Prompting 
@@ -61,7 +61,7 @@ If you use our code and prompt, please consider citing our GitHub repository:
 ```bibtex
 @misc{sun2023panelgpt,
   author = {Hao Sun},
-  title = {PanelGPT: Prompt Language Models with a Penal Discussion},
+  title = {PanelGPT: Prompt Language Models with a panel Discussion},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub Repository},
